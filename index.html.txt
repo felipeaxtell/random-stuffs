@@ -1,0 +1,69 @@
+<!--
+    Invitación de Cumpleaños para una Cata de Vinos
+    Este es un documento HTML completo con Tailwind CSS para un diseño moderno y responsive.
+    Puedes editar el texto y los estilos directamente en el código.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Viña Odfjell</title>
+    <!-- Incluye el CDN de Tailwind CSS para un diseño sencillo y responsive -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+
+    <!-- Contenedor principal de la invitación -->
+    <div class="relative w-full max-w-2xl bg-white rounded-3xl shadow-xl overflow-hidden md:flex">
+
+        <!-- Sección de la imagen (lado izquierdo en escritorio) -->
+        <!-- La imagen de la viña es la que proporcionaste. -->
+        <div class="md:w-1/2 flex items-center justify-center p-6 bg-gradient-to-b from-gray-200 to-gray-300">
+            <img src="https://www.winesofchile.org/wp-content/uploads/2023/06/ODFJELL.png" alt="Viña Odfjell" class="w-full h-auto object-cover rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+        </div>
+        
+        <!-- Sección del texto (lado derecho en escritorio) -->
+        <div class="md:w-1/2 p-8 flex flex-col justify-center text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-2">
+                ¡Feliz Cumpleaños!
+            </h1>
+            <p class="text-xl md:text-2xl font-semibold text-gray-600 mb-6">
+                Una Invitación Especial
+            </p>
+
+            <!-- Contenido principal de la invitación. El texto ha sido modificado. -->
+            <p class="text-gray-700 leading-relaxed mb-6">
+                Queridos tío Pato y tía Paty,
+            </p>
+            <p class="text-gray-700 leading-relaxed mb-6">
+                En honor a su cumpleaños, les obsequiamos una experiencia inolvidable: una cata privada de vinos en la prestigiosa <span class="font-bold text-red-700">Viña Odfjell</span>. Este es nuestro regalo de cumpleaños para ustedes.
+            </p>
+            <p class="text-gray-700 leading-relaxed mb-6">
+                Sumérjanse en el mundo del vino biodinámico y descubran los secretos detrás de cada botella.
+            </p>
+
+            <!-- Sección de la fecha abierta. El texto ha sido modificado. -->
+            <div class="bg-red-50 border border-red-200 text-red-800 p-4 rounded-xl text-center shadow-inner">
+                <p class="font-bold">¡Esta es una invitación abierta!</p>
+                <p>Por favor, avísennos para reservar una fecha para que puedan disfrutar de esta experiencia especialmente pensada para ustedes.</p>
+            </div>
+
+            <!-- Firma de la invitación. Edita este texto. -->
+            <p class="mt-8 text-gray-600 italic">
+                Con cariño,<br>
+                <span class="text-lg font-semibold text-gray-800">Fran y Felipe</span>
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
